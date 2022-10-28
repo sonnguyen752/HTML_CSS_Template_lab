@@ -1,0 +1,149 @@
+html,
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.wrap {
+    display: flex;
+}
+.right-content,
+.left-content {
+    padding: 1em;
+}
+.left-content {
+    height: max-content;
+}
+.left-content-des {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.banner-content__title {
+    font-family: "Dosis", sans-serif;
+    font-family: "Fasthand", cursive;
+    font-family: "Merriweather", serif;
+    font-family: "Silkscreen", cursive;
+}
+
+.banner-content__des p:first-child {
+    color: rgb(239, 239, 9);
+    text-align: center;
+}
+.banner-content__des p:last-child {
+    color: white;
+    font-size: 3em;
+}
+.banner-content .nav-pills {
+    background: white;
+    border-radius: 20px;
+    padding: 10px 15px;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+}
+
+.banner-content .nav-pills a {
+    color: #000;
+}
+.banner-content .nav-pill-item-active {
+    color: white !important;
+    background: #000;
+    border-radius: 20px;
+}
+
+.right-menu {
+    margin-top: 1em;
+}
+.right-menu-item {
+    text-decoration: none;
+    color: white;
+    margin: 0 5px;
+    padding: 0 10px;
+}
+
+.right-menu-item:hover {
+    color: yellow;
+}
+
+.food-services {
+    margin-top: 3em;
+    color: white;
+}
+
+.food-service {
+    display: flex;
+    flex-direction: column;
+}
+
+.food-service__title {
+    font-size: 3em;
+    color: yellow;
+}
+.food-service__items {
+    display: flex;
+    flex-direction: column;
+}
+
+.food {
+    display: flex;
+    margin: 20px 0;
+    grid-column-gap: 10px;
+    padding: 10px;
+}
+.food-price {
+    display: flex;
+    justify-content: space-around;
+}
+
+.food-price--normal {
+    text-decoration: line-through;
+}
+.food-active-info {
+    display: none;
+}
+.food-actice {
+    position: relative;
+    border: 1px solid yellow;
+    z-index: 1;
+    border-radius: 20px;
+    width: max-content;
+}
+
+.food-actice .food-active-info {
+    display: block;
+    position: absolute;
+    top: -30px;
+    background-color: rgba(255, 255, 0, 1);
+    right: 0;
+    color: black;
+    border-radius: 10px;
+    font-size: 0.8em;
+    padding: 5px;
+    z-index: 100;
+}
+.right-footer {
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    margin-bottom: 20px;
+}
+.right-footer-menu {
+    display: flex;
+    flex-direction: column;
+}
+.right-footer-info p:first-child {
+    font-size: 2em;
+}
+.right-footer-menu a:first-child {
+    font-size: 2em;
+}
+.right-footer-menu a {
+    text-decoration: none;
+    color: white;
+}
