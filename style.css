@@ -147,3 +147,18 @@ body {
     text-decoration: none;
     color: white;
 }
+
+/* reponsive width 350px */
+@media only screen and (max-width:786px){
+    .col-6 {
+        width:100%;
+    }
+    .food{
+        display: grid;
+        grid-template-columns:auto ;
+    }
+    .banner-content .nav-pills{
+        display: grid;
+        grid-template-columns:auto auto auto;
+    }
+}
